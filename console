@@ -1,0 +1,28 @@
+<?php 
+
+include "core/autoload.php";
+include "config/const.php";
+
+function run()
+{
+    $cmd= readline("cmd:> ");
+    
+    if (file_exists("bin/$cmd")) {
+        include_once "bin/$cmd";
+        $sub_cmd = $cmd;
+            $sub_cmd();        
+            run();
+        
+    }else if($cmd == "exit")
+    {
+        exit(0);
+    }else{
+        print("Command does not exist !!!\n");
+    run();
+    }
+}
+
+print("\n\n\tWellcome to $title_page Console\n");
+print("==========================================\n");
+
+run();

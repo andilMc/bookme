@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^$ public/ [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ public/index.php?url=$1  [L]
+

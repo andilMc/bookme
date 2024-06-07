@@ -1,0 +1,11 @@
+{
+    "require": {
+        "rmccue/requests": "^2.0",
+        "amadeus4dev/amadeus-php": "^0.3.0",
+        "phpmailer/phpmailer": "^6.8",
+        "symfony/var-dumper": "^6.3",
+        "authorizenet/authorizenet": "^2.0",
+        "php-ai/php-ml": "^0.10.0",
+        "nlp-tools/nlp-tools": "^0.1.3"
+    }
+}
