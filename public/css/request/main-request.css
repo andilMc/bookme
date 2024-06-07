@@ -1,0 +1,23 @@
+.card{
+    border-radius: var(--radius-3);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.body-item{
+    height: 80vh;
+    flex-shrink: 0;
+    flex-grow: 1;
+    width:100%;
+}
+
+.labe-ui{
+    width:400px;
+}
+.container {
+    height: 100vh;
+}

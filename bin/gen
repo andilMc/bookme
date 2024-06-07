@@ -1,0 +1,73 @@
+<?php
+use core\sql\connexion;
+
+function gen(){
+    $requester = connexion::getConnexion();
+    $rep = $requester->query("SHOW TABLES");
+    $tables = $rep->fetch_all();
+    
+    for ($i=0; $i < count($tables) ; $i++) { 
+        $fileName = ucfirst($tables[$i][0]);
+        fopen(__DIR__.'/../src/models/'.$fileName.'.php', 'c+b+w');
+        $reqColumn = $requester->query("SHOW COLUMNS FROM ".$tables[$i][0]);
+        $columns= $reqColumn->fetch_all();
+        $vars = '
+        //======================== Variable =======================//
+        
+        ';
+        for ($j=0; $j <count($columns) ; $j++) { 
+           $vars.= 'private $'.$columns[$j][0].';
+           ';
+        }
+
+        $vars .= '
+        //======================== Constructor =======================//
+        ';
+        $vars .= 'function __construct(';
+        foreach ($columns as $value) {
+            $vars .= '$'.$value[0].' = null,';
+        }
+        $vars = substr($vars, 0, -1);
+        $vars.=') {
+            ';
+            foreach ($columns as $value) {
+                $vars .= '$this->'.$value[0].' = $'.$value[0].';
+                ';
+            }
+        $vars.='}
+        ';
+
+        $vars .= '
+        //======================== Methods =======================//
+        
+        ';
+        for ($j=0; $j <count($columns) ; $j++) { 
+            $vars.= 'public function get'.ucfirst($columns[$j][0]).'(){
+                return $this->'.$columns[$j][0].';
+            }
+            
+            ';
+
+            $vars.= 'public function set'.ucfirst($columns[$j][0]).'($'.$columns[$j][0].'){
+                $this->'.$columns[$j][0].'=$'.$columns[$j][0].';
+            }
+            ';
+         }
+
+        $content = '<?php 
+        namespace src\models;
+        class '.ucfirst($fileName).' 
+        {
+            '.$vars.'
+        }
+        
+        ';
+       
+        file_put_contents(__DIR__.'/../src/models/'.ucfirst($fileName).'.php',$content);
+
+    }
+    
+    $requester->close();
+    run();
+    
+}

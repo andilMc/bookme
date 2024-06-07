@@ -1,0 +1,222 @@
+.form{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: var(--radius-3);
+}
+.label {
+    color: #202F46;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  input {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #737373;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-img{
+    padding-top: 4px;
+    padding-left: 6px;
+    border: none !important;
+  }
+
+  input:focus {
+    border-color: #ff0000;
+    outline: none;
+  }
+  .label2 {
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  textarea {
+    border-radius: 10px;
+    border-color: #737373;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 80%;
+    height: 130px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .enter-the-price {
+    color: #737373;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    width: 262px;
+    height: 45px;
+  }
+  .btn-blue {
+    background-color: var(--blue-6);
+    width: 77% !important;
+    margin-left: 12px;
+    color: var(--indigo-0) !important;
+    border: none;
+    box-shadow: none;
+    text-shadow: none !important;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/*===================== preview side ===========================*/
+.preview {
+  color: #2b638e;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 149px;
+  height: 52px;
+}
+.hotelPreview {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 100%;
+  height: 361px;
+  position: relative;
+  overflow: hidden;
+}
+.imgPreview {
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 15px;
+  object-fit: cover;
+  object-position: center; /* Vous pouvez ajuster cette valeur selon vos besoins */
+  image-rendering: crisp-edges !important;
+}
+
+.hotel-name {
+  color: #202f46;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  /* right: 61.33%; */
+  left: 5px;
+  /* width: auto; */
+  /* bottom: 17.4%;  */
+  top: 230px;
+  /* height: 6.84%; */
+}
+.localisation {
+  color: #96b0c5;
+  text-align: left;
+  font-family: "NunitoSans-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  /* right: 52%; */
+  left: 20px;
+  /* width: 37.33%; */
+  /* bottom: 8.75%; */
+  top: 260px;
+  height: 4.56%;
+}
+#btnPublish{
+  position: absolute;
+  top: 300px;
+}
+#localisationIcon {
+  position: absolute;
+  top: 260px;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+}
+.price {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 350px;
+  top: 274px;
+  width: 49px;
+  height: 24px;
+}
+
+select {
+  font-size: 0.9rem;
+  /* padding: 2px 5px; */
+  width: 80%;
+  height: 50px;
+  padding-right: 50px !important;
+}
+
+select option:hover {
+  background-color: lightgray !important;
+  color: black !important;
+}
+
+
+
+input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+.btnNo{
+  margin-left: 30px;
+}
+.radio-container {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  align-items: center; /* Aligner verticalement les éléments */
+  margin-top: -20px; /* Espacement entre chaque paire de bouton radio et label */
+}
+
+input[type="radio"] {
+  margin-right: 5px; /* Espacement entre les boutons radio */
+  width: 20px;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}

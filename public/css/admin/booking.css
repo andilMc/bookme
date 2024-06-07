@@ -1,0 +1,258 @@
+.super-block {
+  background-color: var(--gray-0);
+}
+
+.admin-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: var(--shadow-4);
+  padding-top: 30px;
+  padding-right: 10px;
+  z-index: 999;
+}
+
+.admin-title-page {
+  color: #2B638E;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.admin-header {
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#bloc{
+  background-color: #f1f3f5 !important;
+}
+
+
+.frame-37,
+.frame-37 * {
+  box-sizing: border-box;
+}
+.frame-37 {
+  background: #ffffff;
+  border-radius: 10px;
+  flex-shrink: 0;
+  height: 189px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px !important;
+  box-shadow: 0px 4px 4px rgba(195, 195, 195, 0.25);
+  /* margin-top: -20px !important; */
+}
+/* .frame-37:hover {
+  background: #f1f3f5; 
+} */
+
+.image-2 {
+  border-radius: 5px;
+  width: 25%;
+  height: 131.87px;
+  position: absolute;
+  left: 26px;
+  top: 28px;
+  object-fit: cover;
+}
+.honda {
+  color: #202f46;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  /* left: 355px; */
+  top: 21px;
+  width: 73px;
+  height: 30px;
+}
+.res-number-cr-124 {
+  color: #2b3741;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  /* left: 355px; */
+  top: 64px;
+  width: 233px;
+  height: 27px;
+}
+.res-number-cr-124-span {
+  color: #2b3741;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.res-number-cr-124-span2 {
+  color: #2b3741;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.customer-name-raihane {
+  color: #2b3741;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  /* left: 356px; */
+  top: 97px;
+  width: 267px;
+  height: 27px;
+}
+.customer-name-raihane-span {
+  color: #2b3741;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.customer-name-raihane-span2 {
+  color: #2b3741;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.reserved-from-02-03-2024-to-03-03-2024 {
+  color: #2b3741;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  /* left: 355px; */
+  top: 129px;
+  width: 451px;
+  height: 27px;
+}
+.reserved-from-02-03-2024-to-03-03-2024-span {
+  color: #2b3741;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.reserved-from-02-03-2024-to-03-03-2024-span2 {
+  color: #2b3741;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.reserved-from-02-03-2024-to-03-03-2024-span3 {
+  color: #2b3741;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.reserved-from-02-03-2024-to-03-03-2024-span4 {
+  color: #2b3741;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.grd-btn {
+  background: #23a1db;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  left: 88%;
+  top: 97px;
+  overflow: hidden;
+  color: #ffffff;
+}
+.btn-color{
+  background: #23a1db;
+  color: white;
+}
+
+.day{
+  color: #6d7277;
+  margin-top: 15px !important;
+}
+
+.searchCar{
+  background-color: #ffffff;
+  width: 250px;
+  height: 40px;
+  outline: none;
+  /* padding-left: 20px; */
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-wrapper input.searchCar {
+  padding-left: 30px;
+}
+
+.search-wrapper .material-symbols-outlined {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#iconSearch{
+  width: 14px;
+  height: 14px;
+  margin-left: -5px;
+  color: #6d7277;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.headsearch{
+  margin-left: 880px;
+}
+
+
+
+.frame-38 {
+  width: 138px;
+  height: 54px;
+}
+.status {
+  color: #2b3741;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 98px;
+  left: 65% !important;
+}
+.on-going {
+  color: #FFD600;
+}
+.cancel{
+  color: #f07d7d;
+}
+.finish{
+  color: #a5d1b0;
+}
+
+.information{
+  margin-left: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a :hover{
+  color: white;
+}
+
+
+

@@ -1,0 +1,200 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.over-view{
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    position: relative;
+}
+.over-view> video{
+    min-inline-size: none;
+    width: 100%;
+    filter: brightness(0.5);
+    position: absolute;
+}
+
+.over-view> .wellcom-text{
+    z-index: 1;
+}
+
+.wellcom-text{
+    position: relative;
+    text-align: center;
+    font-weight: var(--font-weight-7);
+    color: white;
+    text-shadow:2px 2px 16px #0f12185d;
+    font-size: 4vw;
+    animation: var(--animation-slide-in-down) forwards;
+    animation-duration: 0.7s;
+}
+
+.tab-menu-search{
+    background-color: var(--gray-0);
+    box-shadow: var(--shadow-3);
+    border-radius: var(--radius-3);
+    width: 90%;
+    margin: auto;
+    padding: 0 !important;
+    position: relative !important;
+    inset-block-start: -70px;
+}
+
+.bande-filter{
+    background-color: var(--blue-6);
+}
+
+.card-ticket,
+.card-ticket * {
+  box-sizing: border-box;
+}
+.card-ticket {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+}
+.body-ticket {
+  border-style: dashed;
+  border-color: #96b0c5;
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+.carrier-side {
+  border-style: dashed;
+  border-color: #96b0c5;
+  border-width: 0px 1px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.logo-carrier {
+  width: 100px;
+}
+.itinerary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.itinerary-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  height: auto;
+}
+.loation {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  width: 170px;
+}
+.ville {
+  display: block;
+  font-weight: var(--font-weight-5);
+  width: 100%;
+}
+.airport {
+  color: #acacac;
+  display: block;
+  width: 100%;
+}
+.timers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.stopovers {
+  color: #acacac;
+  text-align: center;
+}
+.itineraire {
+  padding: 1px 2px 1px 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.time {
+ 
+}
+.hour {
+  color: #000000;
+  text-align: center;
+  font: bold 12px ;
+}
+.date {
+  color: #777f8c;
+  text-align: center;
+  font: 500 12px ;
+}
+.path {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  align-self: stretch;
+  flex: 1;
+  height: 60px !important;
+  object-fit: cover;
+}
+
+.duration {
+  color: #acacac;
+  text-align: center;
+  font: bold 12px ;
+  position: relative;
+  align-self: stretch;
+}
+
+
+.bill-side {
+  border-style: dashed;
+  border-color: #96b0c5;
+  border-width: 0px 0px 0px 1px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.price {
+  text-align: center;
+  font-size: 24px ;
+  font-weight: var(--font-weight-6);
+  margin: 0;
+}
+.footer-ticket {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.info-ticket {
+  color: #777f8c;
+  text-align: center;
+  font: 400 12px ;
+  position: relative;
+  flex: 1;
+}
+

@@ -1,0 +1,74 @@
+.hotel {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 32%;
+  border-radius: 15px;
+}
+.hotel:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+.imghotel {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img {
+  border-radius: 15px;
+  flex-shrink: 0;
+  width: 404px;
+  height: 254px;
+  position: relative;
+  object-fit: cover;
+}
+.hotelname {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+.name {
+  color: #202f46;
+  text-align: left;
+  font: 700 16px "Poppins", sans-serif;
+  position: relative;
+  width: auto;
+  height: 25px;
+  /* padding-top: 10px; */
+} 
+a{
+  text-decoration: none;
+}
+.cologne{
+  margin-right: 30px;
+}
+.price {
+  color: #202f46;
+  text-align: left;
+  font: 700 16px "Poppins", sans-serif;
+  position: relative;
+  width: 45px;
+  height: 25px;
+  /* padding-top: 10px; */
+}
+.icon-localisation3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  width: 12px;
+  margin-top: -20px;
+}

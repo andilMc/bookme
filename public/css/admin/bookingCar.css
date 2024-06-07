@@ -1,0 +1,139 @@
+    .admin-header {
+        height: 70px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 10px 20px;
+        margin-bottom: 50px;
+    }
+    .admin-profile-img {
+        height: 50px;
+        width: 50px;
+        border-radius: var(--radius-round);
+        object-fit: cover;
+    }
+    /* .book-container{
+        margin-top: 50px;
+    } */
+  .mybook{
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(217, 217, 217, 0.6);
+    border-width: 1px;
+  }
+  
+  .colomn3{
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+  .detail-car {
+    display: flex;
+    flex-direction: row;
+    gap: 159px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .detail1{
+    padding-top: 30px;
+  }
+  
+  .brand {
+    color: #202F46;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+  }
+  .model {
+    color: #202F46;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+  }
+  .type {
+    color: #202F46;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+  }
+  .priceBlock{
+    width: 135px;
+    height: 30px;
+    background: #a5d1b0;
+    border-radius: 5px;
+    padding: 3px 27px 0px 27px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 7px;
+  }
+  .btnChat{
+    width: 150px;
+    height: 40px;
+    background: #23a1db;
+    border-radius: 10px;
+    border-color: #23a1db;
+    padding: 8px 27px 8px 27px;
+    color: white;
+  }
+  .bloc{
+    display: flex;
+    gap: 80px;
+  }
+  .mybook .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+  }
+  
+  .image-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  .detailmarge{
+    margin-top: 35px;
+  }
+  /* =====================================blocFilter======================================== */
+  .blocFilter{
+    background-color: #f1f5f9;
+    height: 70px;
+    border-radius: 5px;
+  }
+  .btnCar{
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  /* ===========================================Header========================================== */
+  .header-about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .cover-img {
+    border-radius: 0px 0px 30px 30px;
+    flex-shrink: 0;
+    width: 99%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .about-us {
+    position: absolute;
+      text-align: center;
+      font-weight: var(--font-weight-7);
+      color: white;
+      text-shadow:2px 2px 16px #0f12185d;
+      font-size: 5vw;
+      animation: var(--animation-slide-in-down) forwards;
+      animation-duration: 0.7s;
+      top: 140px;
+  }
+  
+  

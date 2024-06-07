@@ -1,0 +1,64 @@
+.bg-gray {
+    background-color: #96b0c5;
+}
+
+.bg-blue {
+    background-color: #23a1db;
+}
+
+.bg-green {
+    background-color: #a2d6af;
+}
+
+
+
+.title-box {
+    text-align: center;
+}
+
+.conentent {
+    display: flex;
+    width: 100%;
+}
+
+.paragraf-list {
+    text-align: justify;
+}
+
+.pin-number {
+    padding: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+
+}
+
+.right,.left {
+    padding: 20px;
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.left{
+    padding-left: 20px;
+}
+
+.right .car{
+    width: var(--size-content-2);
+    height: 500px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: var(--radius-3);
+}
+
+.action-car{
+    width: 100%;
+}

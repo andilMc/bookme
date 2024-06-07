@@ -1,0 +1,333 @@
+.about-us-body,
+.about-us-body * {
+  box-sizing: border-box;
+}
+p{
+  margin: 0 !important;
+}
+.about-us-body {
+  display: flex;
+  flex-direction: column;
+  /* gap: 120px; */
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.header-about-us {
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cover-img {
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 1379px;
+  height: 576.24px;
+  object-fit: cover;
+  position: relative;
+}
+.about-us {
+  position: absolute;
+    text-align: center;
+    font-weight: var(--font-weight-7);
+    color: white;
+    text-shadow:2px 2px 16px #0f12185d;
+    font-size: 5vw;
+    animation: var(--animation-slide-in-down) forwards;
+    animation-duration: 0.7s;
+    top: 259px;
+}
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  /* gap: 0px; */
+  /* align-items: center; */
+  justify-content: center;
+  /* flex-shrink: 0; */
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  /* margin-top: 50px; */
+}
+.about-us-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 50%;
+}
+.ContainAboutUs {
+  color: #202f46;
+  text-align: left;
+  font: 700 30px "Poppins", sans-serif;
+  position: relative;
+  /* width: 630px;
+  height: 63px; */
+  /* font-weight: var(--font-weight-7);
+    margin: 0;
+    padding: 0;
+    animation: var(--animation-slide-in-down) forwards;
+    animation-duration: 0.7s;  */
+}
+.textAboutUs {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Poppins", sans-serif;
+  position: relative;
+  /* width: 700px; */
+  width: 500px;
+  height: auto;
+}
+/* .image-about-us { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* gap: 10px; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  /* flex-shrink: 0; */
+  /* position: relative; */
+/* } */
+.aboutUs-img {
+  border-radius: 50px;
+  /* flex-shrink: 0; */
+  width: 500px;
+  height: 260px;
+  /* width: 420px;
+  height: 400px; */
+  object-fit: cover;
+  position: relative;
+  margin-top: 80px;
+}
+.about-our-team {
+  color: #202f46;
+  text-align: center;
+  font: 700 30px "Poppins", sans-serif;
+  position: relative;
+  width: 100%;
+  /* width: 339px;
+  height: 81px; */
+}
+.about-member-femal {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-shrink: 0; */
+  position: relative;
+  width: 100%;
+}
+.img-member-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nasma-img {
+  border-radius: 200px;
+  flex-shrink: 0;
+  /* width: 300px;
+  height: 300px; */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+}
+.about-member-right {
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+  align-items: left;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nasma-youssouf {
+  color: #202f46;
+  text-align: left;
+  font: 700 25px "Poppins", sans-serif;
+  position: relative;
+  width: auto;
+  height: 55px;
+}
+.TextMember {
+  color: #202f46;
+  font: 300 20px "Poppins", sans-serif;
+  position: relative;
+  width: 850px;
+  text-align: left;
+}
+.separateur {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 95%;
+  height: 2px;
+  position: relative;
+  justify-content: center;
+}
+/* .rectangle-19 {
+  background: #d9d9d9;
+  width: 1213px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+} */
+.about-member-male {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.about-member-left {
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.andil-mchangama {
+  color: #202f46;
+  text-align: right;
+  font: 700 25px "Poppins", sans-serif;
+  position: relative;
+  width: 381px;
+  height: 55px;
+}
+.TextMemberright {
+  text-align: left;
+  color: #202f46;
+  font: 300 20px "Poppins", sans-serif;
+  position: relative;
+  width: 850px;
+}
+.img-member-left {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.andil-img {
+  border-radius: 200px;
+  flex-shrink: 0;
+  /* width: 339px;
+  height: 339px; */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
+}
+.rectangle-20 {
+  background: #d9d9d9;
+  width: 1213px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+/* .about-member-femal2 {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+} */
+.img-member-right2 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.ramu-1-1 {
+  border-radius: 145px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ndey-ramu {
+  color: #202f46;
+  text-align: left;
+  font: 700 25px "Poppins", sans-serif;
+  position: relative;
+  width: auto;
+  height: 55px;
+}
+.rectangle-21 {
+  background: #d9d9d9;
+  width: 1213px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.about-member-male2 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: right;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-member-left2 {
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+  align-items: right;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.yussuf-hassan-ghona {
+  color: #202f46;
+  text-align: left;
+  font: 700 25px "Poppins", sans-serif;
+  position: relative;
+  width: auto;
+  height: 55px;
+  padding-right: 38px;
+}
+.img-member-left2 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.ysssf-img {
+  border-radius: 145px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
