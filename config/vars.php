@@ -32,8 +32,8 @@ define("carType" , [
 
 define("mail",[
     "Host"=>'smtp.gmail.com',
-    "Username"   =>'mcdev98@gmail.com',
-    "Password"   =>'jusm kqgp ozhc hycn',
+    "Username"   =>'#######',
+    "Password"   =>'#######',
 ]);
 
 define("_service",[
@@ -54,5 +54,5 @@ define("_transmission",[
     "Automatic"
 ]);
 
-define("LOGIN_ID","76L7Wfdd");
-define("TRANSACTION_KEY","9vwKEF52X9Q76Ljz");
+define("LOGIN_ID","########");
+define("TRANSACTION_KEY","######");
