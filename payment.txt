@@ -14,10 +14,10 @@ IMPORTANT: Save Your API Credentials
 To help you get started quickly, we have generated these Sandbox API credentials. Save these for use in your test application.
 
 API Login ID
-bizdev05
+#####
 
 Transaction Key
-4kJd237rZu59qAZd
+#####
 
 Key
 Simon
